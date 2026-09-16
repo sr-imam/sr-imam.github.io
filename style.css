@@ -285,3 +285,46 @@ footer {
     }
 
 }
+/* PROJECT CARDS */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.project-card {
+    padding: 28px;
+    border: 1px solid #252d3a;
+    border-radius: 14px;
+    background: #0d111a;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #586579;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-bottom: 20px;
+}
+
+.project-card span {
+    font-size: 13px;
+    color: #8f9aaa;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
