@@ -328,3 +328,33 @@ footer {
     }
 
 }
+/* ACHIEVEMENT & CERTIFICATE CARDS */
+
+.achievement-card,
+.certificate-card {
+    max-width: 750px;
+    padding: 28px;
+    margin: 30px 0;
+    border: 1px solid #252d3a;
+    border-radius: 14px;
+    background: #0d111a;
+    transition: 0.3s;
+}
+
+.achievement-card:hover,
+.certificate-card:hover {
+    transform: translateY(-5px);
+    border-color: #586579;
+}
+
+.achievement-card h3,
+.certificate-card h3 {
+    margin-top: 0;
+}
+
+.achievement-card span,
+.certificate-card span {
+    font-size: 13px;
+    color: #8f9aaa;
+    letter-spacing: 1px;
+}
