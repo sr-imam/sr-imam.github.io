@@ -386,3 +386,44 @@ footer {
 .contact-card a:hover {
     text-decoration: underline;
 }
+/* FINAL VISUAL POLISH */
+
+section {
+    position: relative;
+}
+
+section h2 {
+    letter-spacing: -0.5px;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    margin-top: 12px;
+    background: #ffffff;
+}
+
+#home .intro {
+    margin-bottom: 14px;
+}
+
+#home h1 {
+    font-weight: 700;
+}
+
+.project-card,
+.achievement-card,
+.certificate-card,
+.contact-card {
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
+}
+
+#home a {
+    font-weight: 600;
+}
+
+footer {
+    border-top: 1px solid #1b2230;
+}
