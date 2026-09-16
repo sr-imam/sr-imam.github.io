@@ -163,3 +163,12 @@ footer {
         font-size: 32px;
     }
 }
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+}
