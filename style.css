@@ -126,7 +126,20 @@ section p {
     font-size: 18px;
     margin-bottom: 32px;
 }
+/* HOME INTRO */
+#home .intro {
+    color: #8f9aaa;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
 
+.home-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
 /* BUTTONS */
 #home a {
     display: inline-block;
